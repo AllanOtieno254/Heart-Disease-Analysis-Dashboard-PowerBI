@@ -53,11 +53,14 @@ SWITCH(
     'heart_disease'[Age] >= 46 && 'heart_disease'[Age] <= 60, "46-60 (Older Adults)",
     'heart_disease'[Age] >= 61 && 'heart_disease'[Age] <= 80, "61-80 (Seniors)"
 )
+
+2️⃣ Percentage of Smokers
 % of Smokers = 
 IF([Total Individuals] = BLANK(), BLANK(),
 IF([No of Smokers] = BLANK(), BLANK(),
 DIVIDE([No of Smokers], [Total Individuals])))
 
+3️⃣ Sleep Hours Gauge Calculation
 Avg Sleep Hours (Heart Disease) = 
 CALCULATE(AVERAGE('heart_disease'[Sleep Hours]), 
     'heart_disease'[Heart Disease Status] = "Yes")
