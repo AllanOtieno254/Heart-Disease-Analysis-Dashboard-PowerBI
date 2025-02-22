@@ -1,0 +1,24 @@
+Heart-Disease-Dashboard-PowerBI/
+│── data/                         # Raw & processed dataset files
+│   ├── heart_disease_raw.csv      # Original dataset
+│   ├── heart_disease_cleaned.csv  # Cleaned dataset
+│
+│── reports/                       # Documentation & Reports
+│   ├── Heart_Disease_Analysis.pdf # Project Summary
+│   ├── PowerBI_Screenshots/       # Screenshots of the dashboard
+│
+│── visuals/                       # Exported visuals from Power BI
+│   ├── summary_dashboard.png      # Main page visual summary
+│   ├── age_vs_heartdisease.png    # Age group impact analysis
+│   ├── smoking_vs_alcohol.png     # Smoking & alcohol effects
+│   ├── sleep_vs_heartdisease.png  # Sleep impact analysis
+│   ├── stress_vs_heartdisease.png # Stress & heart disease
+│
+│── scripts/                       # DAX formulas & queries
+│   ├── age_grouping_dax.txt       # DAX for Age Groups
+│   ├── kpi_measures_dax.txt       # KPI measures
+│   ├── gauge_chart_dax.txt        # Sleep Hours Gauge Chart DAX
+│
+│── LICENSE                        # Open-source license
+│── README.md                      # Full project documentation
+│── heart_disease_dashboard.pbix   # Power BI dashboard file
